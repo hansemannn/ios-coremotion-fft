@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBDDFB791F43218400E803E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDDFB781F43218400E803E5 /* main.m */; };
+		DBDDFB7C1F43218400E803E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDDFB7B1F43218400E803E5 /* AppDelegate.m */; };
+		DBDDFB7F1F43218400E803E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDDFB7E1F43218400E803E5 /* ViewController.m */; };
+		DBDDFB821F43218400E803E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDDFB801F43218400E803E5 /* Main.storyboard */; };
+		DBDDFB841F43218400E803E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDDFB831F43218400E803E5 /* Assets.xcassets */; };
+		DBDDFB871F43218400E803E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDDFB851F43218400E803E5 /* LaunchScreen.storyboard */; };
+		DBDDFB901F43218E00E803E5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDDFB8F1F43218E00E803E5 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBDDFB741F43218400E803E5 /* iOS-CoreMotion-FFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CoreMotion-FFT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDDFB781F43218400E803E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBDDFB7A1F43218400E803E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBDDFB7B1F43218400E803E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBDDFB7D1F43218400E803E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBDDFB7E1F43218400E803E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBDDFB811F43218400E803E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBDDFB831F43218400E803E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBDDFB861F43218400E803E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBDDFB881F43218400E803E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDDFB8F1F43218E00E803E5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBDDFB711F43218400E803E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDDFB901F43218E00E803E5 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBDDFB6B1F43218400E803E5 = {
+			isa = PBXGroup;
+			children = (
+				DBDDFB761F43218400E803E5 /* iOS-CoreMotion-FFT */,
+				DBDDFB751F43218400E803E5 /* Products */,
+				DBDDFB8E1F43218E00E803E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBDDFB751F43218400E803E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBDDFB741F43218400E803E5 /* iOS-CoreMotion-FFT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBDDFB761F43218400E803E5 /* iOS-CoreMotion-FFT */ = {
+			isa = PBXGroup;
+			children = (
+				DBDDFB7A1F43218400E803E5 /* AppDelegate.h */,
+				DBDDFB7B1F43218400E803E5 /* AppDelegate.m */,
+				DBDDFB7D1F43218400E803E5 /* ViewController.h */,
+				DBDDFB7E1F43218400E803E5 /* ViewController.m */,
+				DBDDFB801F43218400E803E5 /* Main.storyboard */,
+				DBDDFB831F43218400E803E5 /* Assets.xcassets */,
+				DBDDFB851F43218400E803E5 /* LaunchScreen.storyboard */,
+				DBDDFB881F43218400E803E5 /* Info.plist */,
+				DBDDFB771F43218400E803E5 /* Supporting Files */,
+			);
+			path = "iOS-CoreMotion-FFT";
+			sourceTree = "<group>";
+		};
+		DBDDFB771F43218400E803E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBDDFB781F43218400E803E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBDDFB8E1F43218E00E803E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBDDFB8F1F43218E00E803E5 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBDDFB731F43218400E803E5 /* iOS-CoreMotion-FFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDDFB8B1F43218400E803E5 /* Build configuration list for PBXNativeTarget "iOS-CoreMotion-FFT" */;
+			buildPhases = (
+				DBDDFB701F43218400E803E5 /* Sources */,
+				DBDDFB711F43218400E803E5 /* Frameworks */,
+				DBDDFB721F43218400E803E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-CoreMotion-FFT";
+			productName = "iOS-CoreMotion-FFT";
+			productReference = DBDDFB741F43218400E803E5 /* iOS-CoreMotion-FFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBDDFB6C1F43218400E803E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hans Knöchel";
+				TargetAttributes = {
+					DBDDFB731F43218400E803E5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6K4KHD4NQF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBDDFB6F1F43218400E803E5 /* Build configuration list for PBXProject "iOS-CoreMotion-FFT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBDDFB6B1F43218400E803E5;
+			productRefGroup = DBDDFB751F43218400E803E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBDDFB731F43218400E803E5 /* iOS-CoreMotion-FFT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBDDFB721F43218400E803E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDDFB871F43218400E803E5 /* LaunchScreen.storyboard in Resources */,
+				DBDDFB841F43218400E803E5 /* Assets.xcassets in Resources */,
+				DBDDFB821F43218400E803E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBDDFB701F43218400E803E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDDFB7F1F43218400E803E5 /* ViewController.m in Sources */,
+				DBDDFB7C1F43218400E803E5 /* AppDelegate.m in Sources */,
+				DBDDFB791F43218400E803E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBDDFB801F43218400E803E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDDFB811F43218400E803E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBDDFB851F43218400E803E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBDDFB861F43218400E803E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBDDFB891F43218400E803E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBDDFB8A1F43218400E803E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBDDFB8C1F43218400E803E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6K4KHD4NQF;
+				INFOPLIST_FILE = "iOS-CoreMotion-FFT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hsosnabrueck.iOS-CoreMotion-FFT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBDDFB8D1F43218400E803E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6K4KHD4NQF;
+				INFOPLIST_FILE = "iOS-CoreMotion-FFT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hsosnabrueck.iOS-CoreMotion-FFT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBDDFB6F1F43218400E803E5 /* Build configuration list for PBXProject "iOS-CoreMotion-FFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDDFB891F43218400E803E5 /* Debug */,
+				DBDDFB8A1F43218400E803E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDDFB8B1F43218400E803E5 /* Build configuration list for PBXNativeTarget "iOS-CoreMotion-FFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDDFB8C1F43218400E803E5 /* Debug */,
+				DBDDFB8D1F43218400E803E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBDDFB6C1F43218400E803E5 /* Project object */;
+}
