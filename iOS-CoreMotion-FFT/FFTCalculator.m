@@ -85,6 +85,8 @@
   __accelerometerData = [NSMutableArray array];
 }
 
+// Huge shout-out to https://stackoverflow.com/questions/32840282/how-to-get-correct-mean-values-after-applying-fourier-transform-on-accelerometer/32843293
+// Amazing work!
 - (Float32)calculateFastFourierTransform {
   float meanVal = 0.0;
 
