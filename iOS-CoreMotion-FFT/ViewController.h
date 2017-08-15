@@ -7,24 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@import Accelerate;
-@import CoreMotion;
+#import "FFTCalculator.h"
 
 @interface ViewController : UIViewController {
-  FFTSetup fft_weights;
-  DSPSplitComplex inputDataSplitComplex;
-  Float32 *outMagnitudes;
-  UInt32  mAccelFFTLength;
-  UInt32 log2n;
-  UInt32 fftFrameSize;
-  int fftsize;
-  
-  CMMotionManager *motionManager;
-  dispatch_queue_t queue;
-  NSMutableArray<NSNumber *> *__accelerometerData;
+  FFTCalculator *fftCalculator;
 }
 
-
 @end
-
