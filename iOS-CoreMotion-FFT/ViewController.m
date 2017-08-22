@@ -11,8 +11,13 @@
 @implementation ViewController
 
 - (IBAction)startUpdates:(id)sender {
-  [fftCalculator startUpdatesWithCalculationHandler:^(CGFloat value) {
-    NSLog(@"Fourier: %f", value);
+  if (![fftCalculator isSupported]) {
+    return NSLog(@"Error: FFTCalculator not supported due to device restrictions - Please run this project on the device to use the CoreMotion sensor.");
+  }
+
+  [fftCalculator startUpdatesWithCalculationHandler:^(NSArray<NSNumber *> * _Nullable values, float mean, NSError * _Nullable error) {
+    NSLog(@"\nFourier values: %@", values);
+    NSLog(@"Fourier mean-value: %f", mean);
   }];
 }
 

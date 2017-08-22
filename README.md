@@ -16,9 +16,17 @@ Here is an example usage (Obj-C):
   // Initialize calculator with frame size
   FFTCalculator *fftCalculator = [[FFTCalculator alloc] initWithFrameSize:256];
   
+  // Check if the CoreMotion sensor is available (= FFTCalculator is supported)
+  if (![fftCalculator isSupported]) {
+    NSLog(@"Error: FFTCalculator not supported due to device restrictions");
+    NSLog("@Please run this project on the device to use the CoreMotion sensor.");
+    return;
+  }
+  
   // Start updates
-  [fftCalculator startUpdatesWithCalculationHandler:^(CGFloat value) {
-    NSLog(@"Fourier value: %f", value);
+  [fftCalculator startUpdatesWithCalculationHandler:^(NSArray<NSNumber *> * _Nullable values, float mean, NSError * _Nullable error) {
+    NSLog(@"\nFourier values: %@", values);
+    NSLog(@"Fourier mean-value: %f", mean);
   }];
 
   // Stop updates
